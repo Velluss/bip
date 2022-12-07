@@ -1,0 +1,125 @@
+* {  margin: 0; padding: 0; box-sizing: border-box; font-family: Verdana, Geneva, Tahoma, sans-serif; }
+
+
+body {
+    background: url('./img/background.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position-x: -100px;
+    font-size: 20px;
+}
+
+
+h1 {  font-size: 40px;  }
+h2 {  font-size: 30px;  }
+h3 {  font-size: 25px;  }
+h4{  font-size: 22px;  }
+
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #f6f6f6;
+    padding: 20px 100px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 6px 10px -5px black;
+    transition: all .5s;
+    color: rgb(216, 40, 40);
+}
+
+
+.nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav li a {
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    padding: 10px;
+    margin-left: 3px;
+    text-decoration: none;
+    transition: all .3s;
+}
+.nav li a:hover {  color: blue;  }
+.nav li a:active {  color: red;  }
+
+
+.banner {
+    height: 463px;
+    background: url("./img/banner.png");
+    background-repeat: no-repeat;
+}
+
+
+main {
+    margin: 0 auto;
+    margin-top: 150px;
+    min-height: 100vh;
+    max-width: 1327px;
+    text-align: justify;
+}
+main section {
+    background-color: rgb(255, 255, 255, .85);
+    padding: 2.5rem 20px;
+    /* margin-bottom: 40px; */
+}
+main h2 {
+    background-color: rgb(234, 59, 59);
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+#sponsors {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#sponsors div {text-align: center; width: 25%;}
+#sponsors div img {height: 150px;}
+
+#facts ul {
+    margin-left: 23px;
+}
+#facts ul li {
+    margin: 10px 0;
+}
+
+
+footer {
+    background-color: rgb(239, 88, 88);
+    padding: 20px 100px;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    
+}
+footer section {
+    padding: 20px;
+    text-align: center;
+}
+footer section h4 {
+    margin-bottom: 20px;
+}
+#links {
+    border-left: dotted 2px black;
+    border-right: dotted 2px black;
+}
+#links img {
+    border-radius: 20px;
+}
+#contact {
+    font-size: 14px;
+}
+.footer {
+    background: #f6f6f6;
+    text-align: center;
+    padding: 5px 0;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 12px;
+}
